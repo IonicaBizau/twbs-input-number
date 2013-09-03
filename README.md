@@ -15,4 +15,4 @@ $("input[type='number']").twbsNumberInput();
 
 ## Demo
 
-**[DEMO](http://jsfiddle.net/AgxmX/4/)**
+**[DEMO](http://jsfiddle.net/AgxmX/5/)**
