@@ -10,7 +10,7 @@ Currently only TWBS 2.x.x is supported.
 Import the script into page and call:
 
 ```JS
-$.fn.twbsNumberInput();
+$("input[type='number']").twbsNumberInput();
 ```
 
 ## Demo
