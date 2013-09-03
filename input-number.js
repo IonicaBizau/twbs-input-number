@@ -1,3 +1,21 @@
+/*
+ *  Twitter Bootstrap Input Number
+ *
+ *  jQuery plugin that allows you to transform number inputs into
+ *  HTML elements making them compatible with Internet Explorer 10
+ *  and higher.
+ *
+ *  Version v0.1.0
+ *  Author: Ionică Bizău
+ *
+ *  Open issues here: https://github.com/IonicaBizau/twbs-input-number/issues?state=open
+ *  Fork me: https://github.com/IonicaBizau/twbs-input-number
+ *  Follow me: https://github.com/IonicaBizau
+ *  
+ *  License: The MIT Licence
+ *  Copyright © 2013 - Ionică Bizău
+ * */
+
 (function ( $ ) {
     $.fn.twbsNumberInput = function(options) {
 
@@ -29,7 +47,7 @@
                     return false;
                 });
                 
-                var $btnGroup = $("<div>")
+                var $btnGroup = $("<div class='buttons'>")
                                     .addClass("btn-group btn-group-vertical number-btn")
                                     .append($btnPlus)
                                     .append($btnMinus);
