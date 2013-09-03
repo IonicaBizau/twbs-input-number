@@ -11,9 +11,12 @@
             self.each(function () {
                 var $this = $(this);
                 
+                // clone the input
                 var $clone = $this.addClass("input-number").clone(true);
                 $clone.attr("type", "text");
-                $this.replaceWith($clone);
+                
+                var $div = $("<span>").addClass("twbs-input-number");
+                $div.append($clone);
                 
                 var $btn = $("<button>").addClass("btn btn-mini");
                 
@@ -30,6 +33,8 @@
                                     .append($btnMinus);
                 
                 $clone.after($btnGroup);
+                
+                $this.replaceWith($div);
             });
         }
         
