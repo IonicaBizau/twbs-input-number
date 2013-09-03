@@ -28,14 +28,14 @@ function getInput (button) {
 
 function increment (button) {
     var $input = getInput(button);
-    var value = getValue($input);
+    var value = parseInt(getValue($input));
     ++value;
     setValue($input, value);
 }
 
 function decrement (button) {
     var $input = getInput(button);
-    var value = getValue($input);
+    var value = parseInt(getValue($input));
     --value;
     setValue($input, value);
 }
