@@ -1,4 +1,3 @@
-/*-------------------------------- BEGIN OF PLUGIN -------------------------------------------*/
 (function ( $ ) {
     $.fn.twbsNumberInput = function(options) {
 
