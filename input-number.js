@@ -22,9 +22,11 @@
                 
                 var $btnPlus = $btn.clone().append("<i class='icon icon-plus'></i>").on("click", function () {
                     increment($(this));
+                    return false;
                 });
                 var $btnMinus = $btn.clone().append("<i class='icon icon-minus'></i>").on("click", function () {
                     decrement($(this));
+                    return false;
                 });
                 
                 var $btnGroup = $("<div>")
