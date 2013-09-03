@@ -1,0 +1,7 @@
+.number-btn>.btn { margin-top: -10px; }
+.number-btn>.btn:first-child { border-radius: 0 4px 0 0; }
+.number-btn>.btn:last-child { border-radius: 0 0 4px 0; }
+.input-number {
+    border-radius: 4px 0 0 4px !important;
+    height: 33px !important;
+}
