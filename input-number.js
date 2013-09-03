@@ -1,12 +1,14 @@
 (function ( $ ) {
     $.fn.twbsNumberInput = function(options) {
 
+        var self = this;
         var settings = $.extend({
             check: true
         }, options);
 
         function check () {
-            $("input[type='number']").each(function () {
+            if (settings.selector) { self = $(settings.selector); }
+            self.each(function () {
                 var $this = $(this);
                 
                 var $clone = $this.addClass("input-number").clone(true);
