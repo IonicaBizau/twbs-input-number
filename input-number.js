@@ -1,3 +1,4 @@
+/*-------------------------------- BEGIN OF PLUGIN -------------------------------------------*/
 (function ( $ ) {
     $.fn.twbsNumberInput = function(options) {
 
@@ -68,6 +69,7 @@
             if (limits.max && limits.min) {
                 if (value <= limits.max && value >= limits.min) {
                     $input.val(value);
+                    $input.trigger("change");
                 }
                 return;
             }
@@ -76,6 +78,7 @@
             if (limits.min) {
                 if (value >= limits.min) {
                     $input.val(value);
+                    $input.trigger("change");
                 }
                 return;
             }
@@ -84,12 +87,14 @@
             if (limits.max) {
                 if (value <= limits.max) {
                     $input.val(value);
+                    $input.trigger("change");
                 }
                 return;
             }
             
             // no limits
             $input.val(value);
+            $input.trigger("change");
         }
         
         function getValue (input) {
