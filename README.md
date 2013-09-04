@@ -7,10 +7,18 @@ Currently only TWBS 2.x.x is supported.
 
 ## How to use
 
-Import the script into page and call:
 
-```JS
-$("input[type='number']").twbsNumberInput();
+```HTML
+<!-- Load jQuery -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- Load twbs-input-number jQuery plugin -->
+<script src="path/to/twbs-input-number-v0.1.0.min.js"></script>
+
+<script>
+$(document).on("ready", function () {
+   $("input[type='number']").twbsNumberInput();
+});
+</script>
 ```
 
 ## Demo
