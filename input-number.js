@@ -1,21 +1,3 @@
-/*
- *  Twitter Bootstrap Input Number
- *
- *  jQuery plugin that allows you to transform number inputs into
- *  HTML elements making them compatible with Internet Explorer 10
- *  and higher.
- *
- *  Version v0.1.0
- *  Author: Ionică Bizău
- *
- *  Open issues here: https://github.com/IonicaBizau/twbs-input-number/issues?state=open
- *  Fork me: https://github.com/IonicaBizau/twbs-input-number
- *  Follow me: https://github.com/IonicaBizau
- *  
- *  License: The MIT Licence
- *  Copyright © 2013 - Ionică Bizău
- * */
-
 (function ( $ ) {
     $.fn.twbsNumberInput = function(options) {
 
@@ -28,16 +10,16 @@
             if (settings.selector) { self = $(settings.selector); }
             self.each(function () {
                 var $this = $(this);
-                
+
                 // clone the input
                 var $clone = $this.addClass("input-number").clone(true);
                 $clone.attr("type", "text");
-                
+
                 var $div = $("<span>").addClass("twbs-input-number");
                 $div.append($clone);
-                
+
                 var $btn = $("<button>").addClass("btn btn-mini");
-                
+
                 var $btnPlus = $btn.clone().append("<i class='icon icon-plus'></i>").on("click", function () {
                     increment($(this));
                     return false;
@@ -46,44 +28,44 @@
                     decrement($(this));
                     return false;
                 });
-                
+
                 var $btnGroup = $("<div class='buttons'>")
                                     .addClass("btn-group btn-group-vertical number-btn")
                                     .append($btnPlus)
                                     .append($btnMinus);
-                
+
                 $clone.after($btnGroup);
-                
+
                 $this.replaceWith($div);
             });
         }
-        
+
         if (settings.check) {
             check();
         }
-        
+
         function getInput (button) {
             return $input = button.parent().prev();
         }
-        
+
         function increment (button) {
             var $input = getInput(button);
             var value = parseInt(getValue($input));
             ++value;
             setValue($input, value);
         }
-        
+
         function decrement (button) {
             var $input = getInput(button);
             var value = parseInt(getValue($input));
             --value;
             setValue($input, value);
         }
-        
+
         function setValue (input, value) {
             var $input = input;
             var limits = getLimits($input);
-            
+
             // both limits
             if (limits.max && limits.min) {
                 if (value <= limits.max && value >= limits.min) {
@@ -92,7 +74,7 @@
                 }
                 return;
             }
-            
+
             // only min
             if (limits.min) {
                 if (value >= limits.min) {
@@ -101,7 +83,7 @@
                 }
                 return;
             }
-            
+
             // only max
             if (limits.max) {
                 if (value <= limits.max) {
@@ -110,25 +92,25 @@
                 }
                 return;
             }
-            
+
             // no limits
             $input.val(value);
             $input.trigger("change");
         }
-        
+
         function getValue (input) {
             var $input = input;
             return $($input).val() || 0;
         }
-        
+
         function getLimits(input) {
             var $input = input;
             return {
                 min: $($input).attr("min"),
                 max: $($input).attr("max")
             };
-        }        
-        
+        }
+
         return this;
     };
 }( jQuery ));
