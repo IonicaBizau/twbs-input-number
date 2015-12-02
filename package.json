@@ -1,0 +1,52 @@
+{
+  "name": "twbs-input-number",
+  "version": "1.0.0",
+  "description": "jQuery plugin for input number for Twitter Boostrap: compatible with IE10",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/twbs-input-number.git"
+  },
+  "keywords": [
+    "twitter",
+    "bootstrap",
+    "input",
+    "number"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/twbs-input-number/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/twbs-input-number#readme",
+  "blah": {
+    "title": "Twitter Bootstrap - Input number",
+    "description": [
+        { "p": "Currently only TWBS 2.x.x is supported." },
+        { "h2": "How to use" },
+        {
+            "code": {
+                "language": "html",
+                "content": [
+                    "<!-- Load jQuery -->",
+                    "<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js\"></script>",
+                    "",
+                    "<!-- Load twbs-input-number jQuery plugin -->",
+                    "<script src=\"path/to/twbs-input-number-v0.1.0.min.js\"></script>",
+                    "",
+                    "<script>",
+                    "$(document).on(\"ready\", function () {",
+                    "   $(\"input[type='number']\").twbsNumberInput();",
+                    "});",
+                    "</script>"
+                ]
+            }
+        },
+        { "h2": "Demo" },
+        { "p": "[DEMO](http://jsfiddle.net/AgxmX/5/)" }
+    ]
+  }
+}
