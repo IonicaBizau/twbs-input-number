@@ -25,28 +25,36 @@
   "blah": {
     "title": "Twitter Bootstrap - Input number",
     "description": [
-        { "p": "Currently only TWBS 2.x.x is supported." },
-        { "h2": "How to use" },
-        {
-            "code": {
-                "language": "html",
-                "content": [
-                    "<!-- Load jQuery -->",
-                    "<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js\"></script>",
-                    "",
-                    "<!-- Load twbs-input-number jQuery plugin -->",
-                    "<script src=\"path/to/twbs-input-number-v0.1.0.min.js\"></script>",
-                    "",
-                    "<script>",
-                    "$(document).on(\"ready\", function () {",
-                    "   $(\"input[type='number']\").twbsNumberInput();",
-                    "});",
-                    "</script>"
-                ]
-            }
-        },
-        { "h2": "Demo" },
-        { "p": "[DEMO](http://jsfiddle.net/AgxmX/5/)" }
+      {
+        "p": "Currently only TWBS 2.x.x is supported."
+      },
+      {
+        "h2": "How to use"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": [
+            "<!-- Load jQuery -->",
+            "<script src=\"http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js\"></script>",
+            "",
+            "<!-- Load twbs-input-number jQuery plugin -->",
+            "<script src=\"path/to/twbs-input-number-v0.1.0.min.js\"></script>",
+            "",
+            "<script>",
+            "$(document).on(\"ready\", function () {",
+            "   $(\"input[type='number']\").twbsNumberInput();",
+            "});",
+            "</script>"
+          ]
+        }
+      },
+      {
+        "h2": "Demo"
+      },
+      {
+        "p": "[DEMO](http://jsfiddle.net/AgxmX/5/)"
+      }
     ]
   }
 }
