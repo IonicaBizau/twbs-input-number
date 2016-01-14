@@ -1,6 +1,6 @@
-# Twitter Bootstrap - Input number [![Support this project][donate-now]][paypal-donations]
+# Twitter Bootstrap - Input number [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/twbs-input-number.svg)](https://www.npmjs.com/package/twbs-input-number) [![Downloads](https://img.shields.io/npm/dt/twbs-input-number.svg)](https://www.npmjs.com/package/twbs-input-number) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-jQuery plugin for input number for Twitter Boostrap: compatible with IE10
+> jQuery plugin for input number for Twitter Boostrap: compatible with IE10
 
 Currently only TWBS 2.x.x is supported.
 
