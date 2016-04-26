@@ -1,6 +1,6 @@
 {
   "name": "twbs-input-number",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "jQuery plugin for input number for Twitter Boostrap: compatible with IE10",
   "main": "lib/index.js",
   "scripts": {
@@ -56,5 +56,16 @@
         "p": "[DEMO](http://jsfiddle.net/AgxmX/5/)"
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
