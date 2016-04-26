@@ -1,6 +1,8 @@
+
 # Twitter Bootstrap - Input number [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/twbs-input-number.svg)](https://www.npmjs.com/package/twbs-input-number) [![Downloads](https://img.shields.io/npm/dt/twbs-input-number.svg)](https://www.npmjs.com/package/twbs-input-number) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > jQuery plugin for input number for Twitter Boostrap: compatible with IE10
+
 
 Currently only TWBS 2.x.x is supported.
 
@@ -22,13 +24,16 @@ $(document).on("ready", function () {
 
 [DEMO](http://jsfiddle.net/AgxmX/5/)
 
-## Installation
+
+## :cloud: Installation
 
 ```sh
 $ npm i --save twbs-input-number
 ```
 
-## Documentation
+
+## :memo: Documentation
+
 
 ### `twbsNumberInput(options)`
 Initializes the twbs number input.
@@ -41,13 +46,13 @@ Initializes the twbs number input.
 #### Return
 - **jQuery** The selected elements.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
