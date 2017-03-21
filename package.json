@@ -1,6 +1,6 @@
 {
   "name": "twbs-input-number",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "jQuery plugin for input number for Twitter Boostrap: compatible with IE10",
   "main": "lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "input",
     "number"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/twbs-input-number/issues"
@@ -61,12 +61,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
