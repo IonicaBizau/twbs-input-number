@@ -11,6 +11,7 @@
 Currently only TWBS 2.x.x is supported.
 
 ## How to use
+
 ```html
 <!-- Load jQuery -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -24,7 +25,9 @@ $(document).on("ready", function () {
 });
 </script>
 ```
+
 ## Demo
+
 
 [DEMO](http://jsfiddle.net/AgxmX/5/)
 
@@ -32,7 +35,11 @@ $(document).on("ready", function () {
 ## :cloud: Installation
 
 ```sh
-$ npm i --save twbs-input-number
+# Using npm
+npm install --save twbs-input-number
+
+# Using yarn
+yarn add twbs-input-number
 ```
 
 
